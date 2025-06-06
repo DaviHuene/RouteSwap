@@ -1,0 +1,10 @@
+pip install 
+pyinstaller
+customtkinter 
+pandas
+selenium 
+openpyxl
+pip install -r requirements.txt
+
+pip install pyinstaller
+pyinstaller --windowed --onefile --icon=Roteswap.ico RouteSwap.py
