@@ -1,4 +1,4 @@
-# 🔁 Sistema de Troca de Técnicos - Claro
+# 🔁 Sistema de Troca de Técnicos 
 
 Este projeto é uma aplicação com interface gráfica desenvolvida em **Python** usando **CustomTkinter** para automatizar a movimentação de técnicos no sistema via navegador.
 
@@ -8,12 +8,21 @@ Este projeto é uma aplicação com interface gráfica desenvolvida em **Python*
 
 - Interface moderna em modo escuro com CustomTkinter.
 - Leitura de planilhas Excel com os dados dos contratos.
-- Login automático no sistema da Claro via Selenium.
+- Login automático no sistema via Selenium.
 - Troca automática de técnico conforme instruções da planilha.
 - Gerenciamento de logins salvos em arquivo `logins.json`.
 - Pausar e retomar a execução em tempo real.
 - Relatório final gerado em Excel com os resultados.
 
+---
+## 🧠 Interface do APP
+
+---
+![Troca de Técnicos - Claro 30_06_2025 12_59_09](https://github.com/user-attachments/assets/d3515851-9186-4af8-b934-d36fd93e8748) <br>
+
+
+
+![Gerenciar Logins 30_06_2025 12_59_16](https://github.com/user-attachments/assets/70c2ddfe-5cf9-493a-970e-925276b1993c)
 ---
 
 ## 📁 Requisitos
@@ -41,13 +50,6 @@ Outras colunas como `Nome`, `Técnico atual`, `Resultado` serão adicionadas aut
 
 ---
 
-## ▶️ Como Usar
-
-1. Execute o script principal:
-
-```bash
-python nome_do_arquivo.py
-```
 
 2. Na interface:
    - Clique em **"Gerenciar Logins"** para adicionar ou remover usuários.
@@ -63,8 +65,8 @@ python nome_do_arquivo.py
 
 ```json
 {
-  "Fulano Claro": ["fulano.claro", "senha123"],
-  "Ciclano Claro": ["ciclano.claro", "outrasenha"]
+  "Fulano ": ["fulano", "senha123"],
+  "Ciclano ": ["ciclano", "outrasenha"]
 }
 ```
 
