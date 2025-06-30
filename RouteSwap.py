@@ -81,7 +81,7 @@ def mover_tecnico(driver, nome_tecnico):
         ActionChains(driver).send_keys(Keys.ESCAPE).perform()
         time.sleep(1)
         raise Exception(f"Erro ao mover técnico: {str(e)}")
-
+    
 def processar_planilha(filepath, aba_escolhida):
     try:
         df = pd.read_excel(filepath, sheet_name=aba_escolhida, engine="openpyxl")
