@@ -43,7 +43,7 @@ def iniciar_driver():
     return webdriver.Chrome(options=options)
 
 def login(driver):
-    driver.get("https://clarobrasil.etadirect.com/")
+    driver.get("")
     time.sleep(2)
     driver.find_element(By.ID, "username").send_keys(login_selecionado["login"])
     driver.find_element(By.ID, "password").send_keys(login_selecionado["senha"])
